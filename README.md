@@ -6,7 +6,7 @@
 competition of [LOVEU Workshop @ CVPR 2023](https://sites.google.com/view/loveucvpr23/home)!** 
 
 This repository contains the data, baseline code and submission guideline for the LOVEU-TGVE competition. 
-Please visit our [competition website](https://sites.google.com/view/loveucvpr23/home) for more information.
+If you have any questions, please feel free to reach out to us at loveu-tgve@googlegroups.com.
 
 ## Introduction
 
