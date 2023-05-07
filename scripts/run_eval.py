@@ -86,7 +86,7 @@ if __name__ == '__main__':
     else:
         raise NotImplementedError(args.metric)
 
-    df = pd.read_excel(f"{args.data_path}/LOVEU-TGVE_2023_data.xlsx")
+    df = pd.read_csv(f"{args.data_path}/LOVEU-TGVE-2023_Dataset.csv")
     sub_dfs = {
         'DAVIS_480p': df[1:17],
         'youtube_480p': df[19:42],

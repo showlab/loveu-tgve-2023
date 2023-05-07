@@ -8,7 +8,7 @@ CONFIG_PATH = "./configs/loveu-tgve-2023"
 OUTPUT_PATH = "./outputs/loveu-tgve-2023"
 PRETRAINED_MODEL_PATH = "./checkpoints/stable-diffusion-v1-4"
 
-df = pd.read_excel(f"{DATA_PATH}/LOVEU-TGVE_2023_data.xlsx")
+df = pd.read_csv(f"{DATA_PATH}/LOVEU-TGVE-2023_Dataset.csv")
 sub_dfs = {
     'DAVIS_480p': df[1:17],
     'youtube_480p': df[19:42],
