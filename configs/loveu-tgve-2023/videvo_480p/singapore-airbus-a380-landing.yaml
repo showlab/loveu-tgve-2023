@@ -1,0 +1,37 @@
+pretrained_model_path: ./checkpoints/stable-diffusion-v1-4
+output_dir: ./outputs/loveu-tgve-2023/videvo_480p/singapore-airbus-a380-landing
+train_data:
+  video_path: ./data/loveu-tgve-2023/videvo_480p/480p_frames/singapore-airbus-a380-landing
+  prompt: A Singapore Airlines Airbus A380 landing on a sunny morning.
+  height: 480
+  width: 480
+  num_frames: 32
+  frame_rate: 1
+validation_data:
+  prompts:
+    style: A Singapore Airlines Airbus A380 landing on a sunny morning, made of stained
+      glass.
+    object: A Delta Airlines Airbus A380 landing on a sunny morning.
+    background: A Singapore Airlines Airbus A380 landing on a rainy morning.
+    multiple: A stained glass style Delta Airlines Airbus A380 landing in front of
+      aurora borealis.
+  height: 480
+  width: 480
+  num_inference_steps: 50
+  guidance_scale: 12.5
+  use_inv_latent: true
+  num_inv_steps: 50
+learning_rate: 3.0e-05
+train_batch_size: 1
+max_train_steps: 500
+checkpointing_steps: 100
+validation_steps: 100
+trainable_modules:
+- attn1.to_q
+- attn2.to_q
+- attn_temp
+seed: 33
+mixed_precision: fp16
+use_8bit_adam: false
+gradient_checkpointing: true
+enable_xformers_memory_efficient_attention: true

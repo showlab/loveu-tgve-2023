@@ -1,0 +1,40 @@
+pretrained_model_path: ./checkpoints/stable-diffusion-v1-4
+output_dir: ./outputs/loveu-tgve-2023/videvo_480p/las-vegas-time-lapse
+train_data:
+  video_path: ./data/loveu-tgve-2023/videvo_480p/480p_frames/las-vegas-time-lapse
+  prompt: A mesmerizing time-lapse showcasing iconic architectures amidst the cityscape
+    of Las Vegas in night.
+  height: 480
+  width: 480
+  num_frames: 32
+  frame_rate: 1
+validation_data:
+  prompts:
+    style: A mesmerizing time-lapse showcasing iconic architectures amidst the cityscape
+      of Las Vegas in day.
+    object: A mesmerizing time-lapse showcasing natural landscapes amidst the cityscape
+      of Las Vegas in night.
+    background: A mesmerizing time-lapse showcasing iconic architectures amidst the
+      cityscape of New York in night.
+    multiple: A mesmerizing time-lapse showcasing iconic architectures amidst the
+      cityscape of Las Vegas in night, transitioning to day.
+  height: 480
+  width: 480
+  num_inference_steps: 50
+  guidance_scale: 12.5
+  use_inv_latent: true
+  num_inv_steps: 50
+learning_rate: 3.0e-05
+train_batch_size: 1
+max_train_steps: 500
+checkpointing_steps: 100
+validation_steps: 100
+trainable_modules:
+- attn1.to_q
+- attn2.to_q
+- attn_temp
+seed: 33
+mixed_precision: fp16
+use_8bit_adam: false
+gradient_checkpointing: true
+enable_xformers_memory_efficient_attention: true
