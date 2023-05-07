@@ -36,7 +36,7 @@ We conducted a survey of text guided video editing papers, and we found the foll
 - Input: 10 to 100 videos, with ~3 editing prompts per video
 - Human evaluation to compare the generated videos to a baseline
 
-We follow a similar protocol in our [LOVEU-TGVE-2023 dataset](https://drive.google.com/drive/folders/1C_m_Mkm9cBxqPQvw7p_-tXBxkBO2pndC). Our dataset consists of 76 videos. Each video has 4 editing prompts. 
+We follow a similar protocol in our [LOVEU-TGVE-2023 dataset](https://drive.google.com/file/d/1D7ZVm66IwlKhS6UINoDgFiFJp_mLIQ0W/view?usp=sharing). Our dataset consists of 76 videos. Each video has 4 editing prompts. 
 All videos are creative commons licensed. Each video consists of either 32 or 128 frames, with a resolution of 480x480.
 
 ## Submission
@@ -153,7 +153,7 @@ git clone https://huggingface.co/CompVis/stable-diffusion-v1-4 checkpoints/stabl
 
 #### Prepare the data
 
-Download the [loveu-tgve-2023.zip](https://drive.google.com/drive/folders/1C_m_Mkm9cBxqPQvw7p_-tXBxkBO2pndC), and unpack it to the `data` folder. 
+Download the [loveu-tgve-2023.zip](https://drive.google.com/file/d/1D7ZVm66IwlKhS6UINoDgFiFJp_mLIQ0W/view?usp=sharing), and unpack it to the `./data` folder. 
 
 ```bash
 unzip loveu-tgve-2023.zip -d ./data
