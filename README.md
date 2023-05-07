@@ -1,5 +1,5 @@
 <p align="center">
-  <img width=800px src="https://user-images.githubusercontent.com/55792387/236656719-b10b5fb0-b2bf-4de0-89cf-146360b90276.png" alt="logo"/>
+  <a href="https://sites.google.com/view/loveucvpr23/track4"><img width=800px src="https://user-images.githubusercontent.com/55792387/236656719-b10b5fb0-b2bf-4de0-89cf-146360b90276.png" alt="logo"/></a>
 </p>
 
 **Welcome to the [Text-Guided Video Editing (TGVE)](https://sites.google.com/view/loveucvpr23/home) 
