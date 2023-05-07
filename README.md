@@ -42,7 +42,7 @@ All videos are creative commons licensed. Each video consists of either 32 or 12
 ## Submission
 
 Please ensure that you complete all the necessary details and upload your edited videos and report on the 
-[LOVEU-TGVE Registration & Submission Form](https://docs.google.com/forms/d/1dQFuVOQiQZstpuVj-OJ1Eojk-5TL4bZI5ViIllapmuQ/prefill) prior to **June 1, 2023**.
+[LOVEU-TGVE Registration & Submission Form](https://forms.gle/or2Yop5CAHm6pSNZ9) prior to **June 1, 2023**.
 
 **NOTE**: 
 - Each team should register only once. Registering multiple times using different accounts is not permitted. 
