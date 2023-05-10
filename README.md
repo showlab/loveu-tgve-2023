@@ -241,8 +241,6 @@ python scripts/run_eval.py --submission_path="PATH_TO_YOUR_SUBMISSION_FOLDER" --
 
 ### Results
 
-The full results of Tune-A-Video on our LOVEU-TGVE-2023 dataset can be downloaded from [here]().
-
 https://user-images.githubusercontent.com/55792387/236660703-f0073cd6-55bb-4fb5-8b61-8a57cff658f2.mp4
 
 
