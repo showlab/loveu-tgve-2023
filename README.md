@@ -2,7 +2,7 @@
   <a href="https://sites.google.com/view/loveucvpr23/track4"><img width=800px src="https://user-images.githubusercontent.com/55792387/236656719-b10b5fb0-b2bf-4de0-89cf-146360b90276.png" alt="logo"/></a>
 </p>
 
-**Welcome to the [Text-Guided Video Editing (TGVE)](https://sites.google.com/view/loveucvpr23/home) 
+**Welcome to the [Text-Guided Video Editing (TGVE)](https://sites.google.com/view/loveucvpr23/track4) 
 competition of [LOVEU Workshop @ CVPR 2023](https://sites.google.com/view/loveucvpr23/home)!** 
 
 This repository contains the data, baseline code and submission guideline for the LOVEU-TGVE competition. 
@@ -27,7 +27,7 @@ video editing algorithms.
 ## Dates
 - May 1, 2023: The competition data and baseline code become available.
 - May 8, 2023: The leaderboard and submission instructions become available.
-- June 1, 2023: Deadline for submitting your generated videos.
+- June 5, 2023: Deadline for submitting your generated videos.
 - June 18, 2023: LOVEU 2023 Workshop. Presentations by winner and runner-up.
 
 ## Data
