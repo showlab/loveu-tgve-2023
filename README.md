@@ -223,6 +223,7 @@ while True:
 </details>
 
 
+
 ### Automatic metrics
 
 In addition to human evaluation, we employ [CLIP score](https://arxiv.org/abs/2104.08718) 
@@ -241,7 +242,7 @@ python scripts/run_eval.py --submission_path="PATH_TO_YOUR_SUBMISSION_FOLDER" --
 
 ### Results
 
-https://user-images.githubusercontent.com/55792387/236660703-f0073cd6-55bb-4fb5-8b61-8a57cff658f2.mp4
+https://github.com/showlab/loveu-tgve-2023/assets/34246997/ca2059af-cdf4-4c9c-8d57-a33942779715
 
 
 ### Citation
