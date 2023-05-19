@@ -2,6 +2,8 @@
   <a href="https://sites.google.com/view/loveucvpr23/track4"><img width=800px src="https://user-images.githubusercontent.com/55792387/236656719-b10b5fb0-b2bf-4de0-89cf-146360b90276.png" alt="logo"/></a>
 </p>
 
+### [Website](https://sites.google.com/view/loveucvpr23/track4) | [Leaderboard](https://huggingface.co/spaces/loveu-tgve/loveu-tgve-leaderboard) | [Slack](https://join.slack.com/t/slack-hws9995/shared_invite/zt-1vi06nixs-nFqbQZed8l_KMqg7UWP4oA)
+
 **Welcome to the [Text-Guided Video Editing (TGVE)](https://sites.google.com/view/loveucvpr23/track4) 
 competition of [LOVEU Workshop @ CVPR 2023](https://sites.google.com/view/loveucvpr23/home)!** 
 
