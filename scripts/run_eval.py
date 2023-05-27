@@ -74,11 +74,11 @@ if __name__ == '__main__':
     width, height = 480, 480
     device = args.device
 
-    if args.metric == "clip_score_text" or args.metric == "clip_score_frames":
+    if args.metric == "clip_score_text" or args.metric == "clip_score_frame":
         preatrained_model_path = "openai/clip-vit-large-patch14"
         model = CLIPModel.from_pretrained(preatrained_model_path).to(device)
         processor = AutoProcessor.from_pretrained(preatrained_model_path)
-    elif args.metric == "pico_score":
+    elif args.metric == "pick_score":
         preatrained_model_path = "pickapic-anonymous/PickScore_v1"
         model = AutoModel.from_pretrained(preatrained_model_path).to(device)
         processor_path = "laion/CLIP-ViT-H-14-laion2B-s32B-b79K"
