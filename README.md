@@ -249,10 +249,20 @@ https://github.com/showlab/loveu-tgve-2023/assets/34246997/ca2059af-cdf4-4c9c-8d
 
 ### Citation
 ```bibtex
-@article{wu2022tuneavideo,
-    title={Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation},
-    author={Wu, Jay Zhangjie and Ge, Yixiao and Wang, Xintao and Lei, Stan Weixian and Gu, Yuchao and Hsu, Wynne and Shan, Ying and Qie, Xiaohu and Shou, Mike Zheng},
-    journal={arXiv preprint arXiv:2212.11565},
-    year={2022}
+@misc{wu2023cvpr,
+  title={CVPR 2023 Text Guided Video Editing Competition}, 
+  author={Jay Zhangjie Wu and Xiuyu Li and Difei Gao and Zhen Dong and Jinbin Bai and Aishani Singh and Xiaoyu Xiang and Youzeng Li and Zuwei Huang and Yuanxi Sun and Rui He and Feng Hu and Junhua Hu and Hai Huang and Hanyu Zhu and Xu Cheng and Jie Tang and Mike Zheng Shou and Kurt Keutzer and Forrest Iandola},
+  year={2023},
+  eprint={2310.16003},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV}
+}
+
+@inproceedings{wu2023tune,
+  title={Tune-a-video: One-shot tuning of image diffusion models for text-to-video generation},
+  author={Wu, Jay Zhangjie and Ge, Yixiao and Wang, Xintao and Lei, Stan Weixian and Gu, Yuchao and Shi, Yufei and Hsu, Wynne and Shan, Ying and Qie, Xiaohu and Shou, Mike Zheng},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={7623--7633},
+  year={2023}
 }
 ```
